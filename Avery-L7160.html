@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <style>
+            html {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family: Arial;
+                margin: 0;
+                padding: 0;
+                margin-left: 7mm;
+                margin-top: 15mm;
+                font-size: 11pt;
+            }
+            .label {
+                position: relative;
+                box-sizing: border-box;
+                padding: 2mm;
+                padding-top: 2mm;
+                float: left;
+                width: 63.5mm;
+                height: 38.1mm;
+                box-shadow: inset 0 0 1px #000000;
+                border-radius: 2mm;
+            }
+            .label:nth-child(1n) {
+                margin-right: 2.5mm;
+            }
+            .label:nth-child(2n) {
+                margin-right: 2.5mm;
+            }
+            .label:nth-child(21n) {
+                margin-bottom: 30mm;
+            }
+            .line {
+                max-width: 59.5mm;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="label">
+            <div class="line">John Smith</div>
+            <div class="line">123 Road Street</div>
+            <div class="line">Blue Meadows</div>
+            <div class="line">Townsville</div>
+            <div class="line">AB0 1CD</div>
+            <div class="line">United Kingdom</div>
+        </div>
+    </body>
+</html>
